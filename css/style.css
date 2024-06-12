@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+}ul,ol{
+    list-style: none;
+}
+.box-module {
+   
+    text-align: center;
+    padding: 35px;
+    background-color: #99105c;
+    margin: 50px 0;
+    border-bottom: 7px solid #f5a120;   
+transition: all .5s ease;
+}
+.box-module a{
+    color: #fff;
+}
+.bi{
+    color: #fff;
+}
+.box-module:hover{
+    background-color: black;
+    transition: all .5s ease;
+    cursor: pointer;
+    transform: scale(1.1);
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+}
